@@ -1,0 +1,350 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Use the latest (edge) version of IE rendering engine -->
+    <title>"Autorretrato", de Davide Enia</title>
+    <!-- The title tag shows in email notifications, like Android 4.4. -->
+    <!-- Please use an inliner tool to convert all CSS to inline as inpage or external CSS is removed by email clients -->
+    <!-- important in CSS is used to prevent the styles of currently inline CSS from overriding the ones mentioned in media queries when corresponding screen sizes are encountered -->
+
+    <!-- CSS Reset -->
+    <style type="text/css">
+/* What it does: Remove spaces around the email design added by some email clients. */
+      /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+html,  body {
+	margin: 0 !important;
+	padding: 0 !important;
+	height: 100% !important;
+	width: 100% !important;
+}
+/* What it does: Stops email clients resizing small text. */
+* {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+/* What is does: Centers email on Android 4.4 */
+div[style*="margin: 16px 0"] {
+	margin: 0 !important;
+}
+/* What it does: Stops Outlook from adding extra spacing to tables. */
+table,  td {
+	mso-table-lspace: 0pt !important;
+	mso-table-rspace: 0pt !important;
+}
+/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+table {
+	border-spacing: 0 !important;
+	border-collapse: collapse !important;
+	table-layout: fixed !important;
+	margin: 0 auto !important;
+}
+table table table {
+	table-layout: auto;
+}
+/* What it does: Uses a better rendering method when resizing images in IE. */
+img {
+	-ms-interpolation-mode: bicubic;
+}
+/* What it does: Overrides styles added when Yahoo's auto-senses a link. */
+.yshortcuts a {
+	border-bottom: none !important;
+}
+/* What it does: Another work-around for iOS meddling in triggered links. */
+a[x-apple-data-detectors] {
+	color: inherit !important;
+}
+</style>
+
+    <!-- Progressive Enhancements -->
+    <style type="text/css">
+        h1{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:2em;
+			font-style:italic;
+			font-weight:bold;
+			line-height:100%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h2{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.4em;
+			font-style:normal;
+			font-weight:normal;
+			line-height:100%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h3{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.4em;
+			font-style:normal;
+			font-weight:bold;
+			line-height:120%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h4{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.1em;
+			font-style:normal;
+			font-weight:bold;
+			line-height:120%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h5{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:14px;
+			font-style:normal;
+			font-weight:normal;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		p{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1em;
+			font-style:normal;
+			font-weight:normal;
+			line-height:165%;
+			letter-spacing:normal;
+			text-align:left;
+		}
+        /* What it does: Hover styles for buttons */
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+        .button-td:hover,
+        .button-a:hover {
+            background: #555555 !important;
+            border-color: #555555 !important;
+        }
+
+        /* Media Queries */
+        @media screen and (max-width: 700px) {
+
+            .email-container {
+                width: 100% !important;
+            }
+
+            /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+            .fluid,
+            .fluid-centered {
+                max-width: 700 !important;
+                height: auto !important;
+                margin-left: auto!important;
+                margin-right: auto!important;
+            }
+            /* And center justify these ones. */
+            .fluid-centered {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            /* What it does: Forces table cells into full-width rows. */
+            .stack-column,
+            .stack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 700 !important;
+                direction: ltr !important;
+            }
+            /* And center justify these ones. */
+            .stack-column-center {
+                text-align: center !important;
+            }
+        
+            /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+            .center-on-narrow {
+                text-align: center !important;
+                display: block !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                float: none !important;
+            }
+            table.center-on-narrow {
+                display: inline-block !important;
+            }
+                
+        }
+
+    </style>
+    </head>
+    <body bgcolor="#FFFFFF" width="100%" style="margin: 0; padding:0" yahoo="yahoo">
+    <table bgcolor="FFFFFF" cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" style="border-collapse:collapse;">
+      <tr>
+        <td>
+            
+            <!-- Visually Hidden Preheader Text : BEGIN -->
+            <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;">"Autorretrato", de Davide Enia</div>
+            <!-- Visually Hidden Preheader Text : END --> 
+            
+            <!-- Cabeçalho : COMEÇO, alterar imagem -->
+            <table align="center" width="100%" class="email-container">
+            <tr>
+                <td align="center" style="font-size: 0.6em; font-weight: normal; line-height: 1em; color: #000000; font-family: sans-serif; padding:10px 0px 0px 0px">Se não conseguir visualizar corretamente este e-mail <a href="https://nldq.github.io/nl-autorretrato/">clique aqui</a></td>
+			</tr>
+			<tr>
+				<td style="padding: 0.4em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21123445&authkey=%21AMxe9px-h8g3JY0&width=700&height=50" alt="Dom Quixote" border="0" align="center" width="700" style="width: 100%; max-width: 700px; height: auto;"></td>
+            </tr>
+			<tr>
+				<td style="padding: 0em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://1drv.ms/i/c/a5ece9195a592475/IQSjUN4XPg37Q6hhNDE1Eg5OAe__2lEBnkmoLxnB9yy9wzM?width=700&height=400" alt="&quot;Autorretrato&quot;, de Davide Enia." border="0" width="700" align="center" style="width: 100%; max-width: 700px; height: auto;"></td>
+			</tr>
+          </table>
+            <!-- Cabeçalho : FIM --> 
+            
+            <!-- Email Body : BEGIN -->
+            <table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="700" class="email-container">
+            
+<!-- Livro : COMEÇO-->
+            
+				<tr>
+				<td dir="ltr" align="center" valign="top" width="100%" style="padding: 0px;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="90.5%">
+					<table align="center" width="100%">
+						<tbody>
+							<tr>
+							<td valign="top" align="center" style="padding:0px 60px 30px 60px;">
+								<h1 style="color:#4ab7a2">Autorretrato</h1>
+							<h2>Davide Enia</h2>
+								<h5>Tradução de Ana Pereirinha</h5>
+							<h4>Nas livrarias a 17 de Março</h4>
+								<br>
+								<h4 style="font-weight:normal"><strong>A Dom Quixote apresentou Davide Enia aos leitores portugueses em 2021, com <em>Notas Sobre Um Naufrágio</em>, e publica agora este livro que é também uma peça de teatro que nos fala da experiência do autor, desde criança, com a máfia de Palermo.</strong></h4>
+								<p style="text-align:left !important"><br><strong>Ao regressar a casa depois da escola</strong>, um menino de oito anos vê a sua primeira vítima assassinada pela máfia, enquanto as bolas dos colegas batem nas persianas fechadas e os cromos de futebol passam de mão em mão. Esses «encontros» acabam por tornar-se quase banais – e é só como adolescente que descobre, em conversa com um colega que foi a Londres, que as mortes da Cosa Nostra são um exclusivo da cidade onde cresceu.<br><br>
+								<strong>Num passeio organizado pelo professor de Religião e Moral</strong>, decide então escrever as suas instruções para sobreviver a Palermo e entrega-as ao padre que, pouco depois, acabará morto com um tiro na nuca. No ano em que faz os exames de admissão à universidade, Davide fica sozinho na cidade, e a família, de férias nas Dolomitas, ouve a notícia da bomba que matou o juiz cuja vivenda fica mesmo em frente da sua casa e apanha o maior susto da sua vida.<br><br>
+								<strong>Davide Enia conta-se a si próprio</strong> neste texto belíssimo, que já foi levado à cena no seu país e no qual ele empresta a voz a três investigadores policiais que, como uma obsessão, uma vocação, um dever, lutaram e derrotaram o braço armado da máfia.<br>
+								As suas palavras correm por estas páginas como pelas ruas e vielas de uma cidade tão acostumada ao silêncio quanto ao rugido das bombas e onde o reflexo numa poça de sangue é o seu autorretrato.</p>
+								<p style="text-align:center"><br><strong>«Vejo o primeiro cadáver de um assassinado aos oito anos, ao voltar para casa, vindo da escola pelo exato percurso que estava combinado com os meus pais: Rua Montuoro, Rua Scobar, Rua Leonardo da Vinci, Rua Galileu Galilei, Rua Mozart, Rua Liszt, três andares de escadas, casa.<br>
+								Ao longo da Rua Montuoro vou pensando no que se passou na escola, finalmente estudámos um povo fantástico, os Fenícios, grandes navegadores. Sigo pela Rua Scobar e vejo três pessoas, imóveis como árvores, a olhar para o mesmo sítio. Há um corpo caído no chão, no passeio, mesmo debaixo da varanda da casa do meu colega Giuseppe Malato, que precisamente hoje faltou à escola. Uma poça de sangue nasce da cabeça do homem que está estendido.<br>
+								E este é o primeiro assassinado que vejo, por isso encaminho-me na sua direção, mas apercebo-me de que o morto ainda deve estar fresco, na verdade a polícia ainda nem chegou, e, como se por telepatia, um pensamento idêntico brota em uníssono nas cabeças de todos os presentes, de repente todos nos afastamos dali, cada um retomando o seu próprio trajeto, indo à sua vida, sem correr, nunca se deve sair a correr do lugar onde alguém foi morto, se a polícia nos parar vão perguntar-nos porque íamos a correr, para onde íamos, o que estávamos a fazer ali. É melhor nunca ter nada a ver com a polícia.<br>
+								Retomo o meu percurso, Rua Scobar, viro para a Leonardo da Vinci e… Não posso crer! Mesmo à minha frente, eis que surge o meu herói: o homem do sal.<br>
+								«Comprem sal e guardem! Sal branco e refinado! Quatro pacotes de sal: mil liras! Quando me procurarem, não me encontram!»<br>
+								E é verdade, tenho passado a vida à procura dele e nunca o encontrei, e agora, sem o procurar, aqui está ele, à minha frente, sentado na sua motolapa com a camisinha justa, a barriga de fora, a pirâmide de sal atrás. É formidável.<br>
+								É como se toda a existência me estivesse a dar uma lição de vida: se queres mesmo encontrar o que desejas ardentemente, tens de parar de procurar.»</strong></p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			<hr width="91%" color="4ab7a2">
+			<br><br>
+<!-- Sobre o autor -->
+<table align="center" width="100%">
+	<tr>
+        <td width="100%" class="stack-column-center">
+            <table align="left" width="250" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Luísa Costa Gomes." src="https://1drv.ms/i/c/a5ece9195a592475/IQQjhQDBR9AbRajVTfb0SM7tAemgju0iMvnKjUYjumku5SQ?width=280&height=420" width="250">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="right" width="400" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td valign="top" style="padding: 0px 20px 0px 0px">
+                        	<p><strong>Davide Enia</strong> (Palermo, 1974) é dramaturgo, encenador, ator e romancista, tendo escrito vários livros de ficção e não-ficção e realizado um drama radiofónico.<br>
+							Recebeu os mais importantes prémios de teatro em Itália.<br>
+							Escreveu <em>Notas sobre Um Naufrágio</em>, um texto absolutamente notável e comovente sobre os desembarques de migrantes na ilha de Lampedusa, que venceu o Premio Anima Letteratura 2017, o Premio SuperMondello e Mondello Giovani 2018 e está publicado nas Publicações Dom Quixote.
+							</p>
+						</td>
+					</tr>
+            	</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+<br>
+<hr width="91%" color="4ab7a2">
+<br>
+<!-- Outros livros da autora-->
+<table align="center" width="20%">
+	<h3 style="color:#4ab7a2">Do mesmo autor</h3>
+	<tr>
+        <td align="center" width="100%" class="stack-column-center">
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Notas sobre Um Naufrágio" src="https://1drv.ms/i/c/a5ece9195a592475/IQRyjKnaqjdDSb0VzbICLct-Aex3OoD0FbFQpco_5DsWWE0?width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+<br>
+<hr width="91%" color="4ab7a2">
+<br>
+<!-- Capa e especificações -->
+<table align="center" width="100%">
+	<tr>
+        <td width="100%" class="stack-column-center">
+            <table align="left" width="250" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="&quot;Autorretrato&quot;, de Davide Enia." src="https://1drv.ms/i/c/a5ece9195a592475/IQQUvzazDufDQqmyIqfpQQH3AfgJE2rrgSyF2oNMiDjIbcE?width=1042&height=1564" width="250">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="right" width="400" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td valign="top" style="padding: 0px 20px 0px 0px">
+                        	<p style="line-height: 250%">
+							Literatura Traduzida<br>
+							104 páginas<br>
+							11,90 Euros<br>
+							ISBN: 978-972-20-8839-8<br>
+							1.ª Edição: Abril 2026<br>
+							Dom Quixote
+							</p>
+						</td>
+					</tr>
+            	</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+					<table align="center" width="100%">
+	<tbody>
+		<tr>
+			<td valign="top" align="center" style="padding: 10px">
+				<p style="text-align: center; line-height: 150%">Para mais informações:<br>
+				Rui Breda<br>
+				938 527 410<br></p>
+			</td>
+		</tr>
+		<tr>
+				<td style="padding: 0.4em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21123446&authkey=%21AF8CaGSbZcojQpU&width=700&height=125" alt="Dom Quixote" border="0" align="center" width="700" style="width: 100%; max-width: 700px; height: auto;"></td>
+            </tr>
+	</tbody>
+					</table>
+                  </table></td>
+              </tr>
+          </table>
+            <!-- Email Body : END --> 
+            
+            <!-- Email Footer : BEGIN -->
+            
+            <!-- Email Footer : END -->
+            
+			</td></tr></table>
+</body>
+</html>
